@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".First" >
+
+    <Button
+        android:id="@+id/btnaddstu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text=" student details" />
+
+    <Button
+        android:id="@+id/btnaddfac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnaddstu"
+        android:layout_below="@+id/btnaddstu"
+        android:text=" faculty details" />
+
+    <Button
+        android:id="@+id/btnhome"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnaddfac"
+        android:layout_centerHorizontal="true"
+        android:text="home" />
+
+    <Button
+        android:id="@+id/btngallery"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnhome"
+        android:layout_below="@+id/btnhome"
+        android:text="gallery" />
+
+    <Button
+        android:id="@+id/btncontactfirst"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btngallery"
+        android:layout_below="@+id/btngallery"
+        android:text="contact" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signup2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.signup2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.signup2.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.First"
+            android:label="@string/title_activity_first" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.Second"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.StudentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.FacultyActivity"
+            android:label="@string/title_activity_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.Studentdetails"
+            android:label="@string/title_activity_studentdetails" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.Facultydetails"
+            android:label="@string/title_activity_facultydetails" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.DeleteStudent"
+            android:label="@string/title_activity_delete_student" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.UpdateStu"
+            android:label="@string/title_activity_update_stu" >
+        </activity>
+        <activity
+            android:name="com.example.signup2.ShowStudentDetails"
+            android:label="@string/title_activity_show_student_details" >
+        </activity>
+    </application>
+
+</manifest>

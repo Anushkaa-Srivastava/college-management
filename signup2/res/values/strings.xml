@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">signup2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="title_activity_faculty">FacultyActivity</string>
+    <string name="title_activity_studentdetails">Studentdetails</string>
+    <string name="title_activity_facultydetails">Facultydetails</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_delete_student">DeleteStudent</string>
+    <string name="title_activity_update_stu">UpdateStu</string>
+    <string name="title_activity_show_student_details">ShowStudentDetails</string>
+
+</resources>

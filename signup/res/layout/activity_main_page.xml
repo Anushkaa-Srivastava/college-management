@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainPage" >
+
+    <Button
+        android:id="@+id/btnaddstu"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="20dp"
+        android:text="add student" />
+
+    <Button
+        android:id="@+id/btndeletestu"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnaddstu"
+        android:layout_below="@+id/btnaddstu"
+        android:text="delete student" />
+
+    <Button
+        android:id="@+id/btnupdatestu"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btndeletestu"
+        android:layout_below="@+id/btndeletestu"
+        android:text="update student" />
+
+    <Button
+        android:id="@+id/btnaddfac"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnupdatestu"
+        android:layout_below="@+id/btnupdatestu"
+        android:text="add faculty" />
+
+    <Button
+        android:id="@+id/btngallery"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnaddfac"
+        android:layout_below="@+id/btnaddfac"
+        android:text="gallery" />
+
+    <Button
+        android:id="@+id/btncont"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btngallery"
+        android:layout_below="@+id/btngallery"
+        android:text="contact" />
+
+</RelativeLayout>
