@@ -50,7 +50,7 @@ dbhelper db;
 					boolean bb=db.insertdata(c,a,b,s1);
 					if(bb==true)
 					{
-						Toast.makeText(getApplicationContext(), "registered successfully...", Toast.LENGTH_LONG).show();
+						Toast.makeText(getApplicationContext(), "Registered successfully...", Toast.LENGTH_LONG).show();
 					}
 					
 				}

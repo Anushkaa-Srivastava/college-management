@@ -35,8 +35,8 @@ public class DBHandler extends SQLiteOpenHelper{
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int arg1, int arg2) {
-		db.execSQL("drop if table exist "+tbname);
-		db.execSQL("drop if table exist "+tbnamefac);
+		db.execSQL("drop if table exists "+tbname);
+		db.execSQL("drop if table exists "+tbnamefac);
 		onCreate(db);
 		
 	}
