@@ -60,6 +60,7 @@ dbhelper dbb;
 				db=dbb.getReadableDatabase();
 				String a=etuser.getText().toString();
 				String b=etpass.getText().toString();
+				String c="";
 				if(a.compareTo("anu")==0 && b.compareTo("123")==0)
 				{
 					if(s.compareTo("Admin")==0)
@@ -77,7 +78,7 @@ dbhelper dbb;
 						Intent i=new Intent(MainActivity.this,StudentActivity.class);
 						startActivity(i);
 					}
-					
+
 				}
 				else if(s=="Faculty")
 				{
