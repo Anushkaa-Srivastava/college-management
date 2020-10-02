@@ -19,7 +19,7 @@ public class Registration extends Activity {
 	Button btnsave,btnreset2;
 	
 	Spinner spin;
-	String conn[]={"india","australia","pakistan"};
+	String conn[]={"India","Australia","Pakistan"};
 	String s,s1;
 	DBHandler db;
 	@Override	protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +57,7 @@ public class Registration extends Activity {
 			
 			@Override
 			public void onClick(View arg0) {
-				 s1="anushka";
+				 s1="Anushka";
 				String a=etname.getText().toString();
 				String b=etage.getText().toString();
 				String c=etcontact.getText().toString();

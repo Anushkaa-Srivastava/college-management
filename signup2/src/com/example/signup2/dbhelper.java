@@ -36,8 +36,8 @@ public static final String col42="gender";
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int arg1, int arg2) {
 		// TODO Auto-generated method stub
-		db.execSQL("drop if table exist "+tbname);
-		db.execSQL("drop if table exist "+tbreg);
+		db.execSQL("drop if table exists "+tbname);
+		db.execSQL("drop if table exists "+tbreg);
 		onCreate(db);
 		
 	}

@@ -52,7 +52,7 @@ public class Mainpgregisteration extends Activity {
 				}
 				else
 				{
-					Toast.makeText(getApplicationContext(), "error occured", Toast.LENGTH_LONG).show();
+					Toast.makeText(getApplicationContext(), "error occured!", Toast.LENGTH_LONG).show();
 				}
 			}
 		});
