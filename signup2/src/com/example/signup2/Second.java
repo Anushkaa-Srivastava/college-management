@@ -54,11 +54,11 @@ public class Second extends Activity {
 					boolean k=db.detail(aa,bb,ss1,ss);
 					if(k==true)
 					{
-						Toast.makeText(getApplicationContext(), "registered successfully...", Toast.LENGTH_LONG).show();
+						Toast.makeText(getApplicationContext(), "registered successfully...", Toast.LENGTH_SHORT).show();
 					}
 					else
 					{
-						Toast.makeText(getApplicationContext(), "error occured", Toast.LENGTH_LONG).show();
+						Toast.makeText(getApplicationContext(), "error occured", Toast.LENGTH_SHORT).show();
 					}
 					
 					

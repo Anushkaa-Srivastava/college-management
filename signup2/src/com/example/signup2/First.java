@@ -42,7 +42,7 @@ Button btnaddstu,btnaddfac,btnhome,btngallery,btnconfirst;
 			
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
+
 				Intent i=new Intent(First.this,Home.class);
 				startActivity(i);
 			}
