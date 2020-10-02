@@ -26,7 +26,7 @@
                   <XML_NAMESPACE>^$</XML_NAMESPACE>
                 </AND>
               </match>
-              <order>BY_NAME</order>
+              <order>BY_NAME</order>//schemas.android.com/apk/res/android</XML_NAMESPACE>
             </rule>
           </section>
           <section>
